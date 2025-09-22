@@ -9,7 +9,7 @@ from groq import Groq
 load_dotenv()
 
 # Groq client for explanations only
-client = Groq("")
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # Load local PyTorch rockfall model
 MODEL_PATH = "rockfall_model.pt"
