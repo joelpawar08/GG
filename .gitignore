@@ -1,0 +1,82 @@
+# Node.js Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment Variables (Sensitive Files)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+backend/.env
+frontend/.env
+
+# Build Output Directories
+dist/
+build/
+out/
+.next/  # For Next.js, if used
+public/build/  # Common in some frontend setups
+
+# Large Files (e.g., ZIPs from your previous question)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-Specific Files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+
+# Build Caches
+.cache/
+.esbuild/
+.parcel-cache/
+
+# Dependency Lock Files (optional, uncomment to ignore)
+# package-lock.json
+# yarn.lock
+
+# Python (if backend uses Python)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Database Files (if applicable)
+*.sqlite
+*.db
+*.sql
+
+# Other Common Ignores
+*.lock
+*.pid
+*.seed
+*.pid.lock
